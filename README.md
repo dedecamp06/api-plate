@@ -38,6 +38,8 @@ $ docker build -t name/node
 - tedious
 - Express
 - SOLID
+- Rest
+- Eslint
 - Clean Architeture
 - uuidv4
 - Nodemon
