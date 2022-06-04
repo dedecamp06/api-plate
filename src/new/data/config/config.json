@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "passDocker123",
+    "database": "empty",
+    "host": "localhost",
+    "dialect": "mssql"
+  }
+}

@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const dbConfig: any = {
-    dialect: 'postgres',
+    dialect: 'mssql',
     host: process.env.SQL_HOST,
     username: process.env.SQL_USER,
     password: process.env.SQL_PASS,
@@ -15,4 +15,5 @@ export const dbConfig: any = {
             requestTimeout: 300000,
         },
     },
+    logging: false,
 }
